@@ -1,5 +1,5 @@
 {
-  "name": "week2-l02-team",
+  "name": "week-03",
   "version": "1.0.0",
   "description": "Run npm install and npm start from the backend folder in the terminal",
   "main": "server.js",
