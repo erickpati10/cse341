@@ -16,7 +16,7 @@ GET https://cse341-7955.onrender.com/contacts/65c089c9c7c3212ea7488dd6
 ### Create contact 
 POST https://cse341-7955.onrender.com/contacts HTTP/1.1 
 content-type: application/json
-
+[
 {
 "firstName":"Leo", 
 "lastName":"Patino", 
@@ -32,7 +32,7 @@ content-type: application/json
 "favoriteColor":"Black", 
 "birthday":"07/30/1897"
 }
-
+]
 ### PUT contact 
 PUT https://cse341-7955.onrender.com/contacts/65c089c9c7c3212ea7488dd7 HTTP/1.1 
 content-type: application/json
