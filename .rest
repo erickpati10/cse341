@@ -25,6 +25,14 @@ content-type: application/json
 "birthday":"11/18/2017"
 }
 
+{
+"firstName":"John", 
+"lastName":"Baker", 
+"email":"Jbaker@gmail.com", 
+"favoriteColor":"Black", 
+"birthday":"07/30/1897"
+}
+
 ### PUT contact 
 PUT https://cse341-7955.onrender.com/contacts/65c089c9c7c3212ea7488dd7 HTTP/1.1 
 content-type: application/json
@@ -38,4 +46,4 @@ content-type: application/json
 
 ### DELETE contact 
 
-DELETE https://cse341-7955.onrender.com/contacts/65c5dd3c838d927fdfa81c5a HTTP/1.1
+DELETE https://cse341-7955.onrender.com/contacts/65c72016beed77990213d056 HTTP/1.1
