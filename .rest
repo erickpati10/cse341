@@ -2,36 +2,6 @@
 ### 
 GET http://localhost:8080/contacts 
 
-### Get contact by id 
-GET http://localhost:8080/contacts/622023f642f9ab4cd6e060b3
-
-### Create contact 
-POST http://localhost:8080/contacts HTTP/1.1    content-type: application/json
-
-{
-"firstName":"Leo", 
-"lastName":"Patino", 
-"email":"leoP@gmail.com", 
-"favoriteColor":"Blue", 
-"birthday":"11/18/2017"
-}
-
-
-### PUT contact 
-PUT http://localhost:8080/contacts/65c089c9c7c3212ea7488dd7 HTTP/1.1 
-content-type: application/json
-
-{
-"firstName":"James", 
-"lastName":"Goodman", 
-"email":"jamesg@gmail.com", "favoriteColor":"Green", 
-"birthday":"04/30/1990"
-}
-
-
-### DELETE contact 
-DELETE http://localhost:8080/contacts/65c5dd3c838d927fdfa81c5a HTTP/1.1
-
 
 
 
@@ -62,8 +32,8 @@ content-type: application/json
 {
 "firstName":"James", 
 "lastName":"Goodman", 
-"email":"jamesg@gmail.com", "favoriteColor":"Green", 
-"birthday":"04/30/1990"
+"email":"jamesg@gmail.com", "favoriteColor":"Brown", 
+"birthday":"05/30/1990"
 }
 
 ### DELETE contact 
