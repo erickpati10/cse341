@@ -1,6 +1,6 @@
 module.exports = (mongoose) => {
   const Temple = mongoose.model(
-    'temples',
+    "temples",
     mongoose.Schema(
       {
         temple_id: Number,
@@ -9,8 +9,8 @@ module.exports = (mongoose) => {
         dedicated: String,
         additionalInfo: Boolean,
       },
-      { timestamps: true }
-    )
+      { timestamps: true },
+    ),
   );
 
   return Temple;

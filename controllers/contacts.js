@@ -45,13 +45,15 @@ const createContact = async (req, res) => {
       .collection("contacts")
       .insertOne(contact);
     if (response.acknowledged) {
-      res.status(201).json(response);
+      res.status(201).json({ success: true, data: response });
     } else {
       res
         .status(500)
-        .json(
-          response.error || "Some error occurred while creating the contact."
-        );
+        .json({
+          success: false,
+          error:
+            response.error || "Some error occurred while creating the contact.",
+        });
     }
   } catch (error) {
     console.error(error);
@@ -80,7 +82,7 @@ const updateContact = async (req, res) => {
       res
         .status(500)
         .json(
-          response.error || "Some error occurred while updating the contact."
+          response.error || "Some error occurred while updating the contact.",
         );
     }
   } catch (error) {
@@ -103,7 +105,7 @@ const deleteContact = async (req, res) => {
       res
         .status(500)
         .json(
-          response.error || "Some error occurred while deleting the contact."
+          response.error || "Some error occurred while deleting the contact.",
         );
     }
   } catch (error) {

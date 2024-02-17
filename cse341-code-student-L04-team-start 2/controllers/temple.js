@@ -48,7 +48,7 @@ exports.findAll = (req, res) => {
         dedicated: 1,
         additionalInfo: 1,
         _id: 0,
-      }
+      },
     )
       .then((data) => {
         res.send(data);

@@ -12,7 +12,7 @@ routes.use(
       documentationURL: "https://nathanbirch.github.io/nathan-byui-api-docs",
     };
     res.send(docData);
-  })
+  }),
 );
 
 module.exports = routes;
