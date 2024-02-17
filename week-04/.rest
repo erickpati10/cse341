@@ -32,10 +32,10 @@ content-type: application/json
 {
 "firstName":"James", 
 "lastName":"Goodman", 
-"email":"jamesg@gmail.com", "favoriteColor":"Blue", 
+"email":"jamesg@gmail.com", "favoriteColor":"Brown", 
 "birthday":"05/30/1990"
 }
 
 ### DELETE contact 
 
-DELETE https://cse341-7955.onrender.com/contacts/65c725c43aaa409f9c0262ca HTTP/1.1
+DELETE https://cse341-7955.onrender.com/contacts/65c72016beed77990213d056 HTTP/1.1
