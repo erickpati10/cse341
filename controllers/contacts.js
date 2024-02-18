@@ -57,7 +57,6 @@ const createContact = async (req, res) => {
 };
 
 const updateContact = async (req, res) => {
-  try {
     const userId = new ObjectId(req.params.id);
     const contact = {
       firstName: req.body.firstName,
@@ -86,7 +85,6 @@ const updateContact = async (req, res) => {
 };
 
 const deleteContact = async (req, res) => {
-  try {
     const userId = new ObjectId(req.params.id);
     const response = await mongodb
       .getDb()
